@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;   
+}
+:root{
+    --softBlue : hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --mainBG: hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%)
+}
+body{
+    background-color: var(--mainBG);
+    margin-top: 5%;    
+}
+.container{
+    background-color:  var(--cardBG);
+    max-width: 35%;    
+    margin: auto;
+    border-radius: 1em;
+    padding: 1em;
+}
+.img{
+    width: 100%;
+    border-radius: 1em;
+}
+.relative{
+    position: relative
+}
+.view{
+    position: absolute;    
+}
+div.view{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(178, 100%, 50%, 50%);
+    height: calc(100% - 4px);
+    opacity: 0;    
+    transition: opacity .5s ease-out;
+    border-radius: 1em;
+}
+img.view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+div.view:hover{
+    opacity: 1;
+}
+h2{
+    padding: 1em 0 ;
+    color: var(--White);
+}
+p.description{
+    color: var(--softBlue);
+}
+article{    
+    border-bottom: solid 1px var(--softBlue);
+    padding: 2em 0;
+}
+div.group1,div.group2{
+    display: inline-flex;
+    vertical-align: middle;
+}
+div.group1 p{
+    color: var(--cyan);
+}
+div.group2{
+    float: right;
+    color: var(--softBlue);
+}
+div.group1 p,div.group2 p{
+    padding: 0 .4em;
+}
+div.group3{
+    display: inline-flex;
+    align-items: center;
+    padding: 1em 0;
+}
+div.group3 p {
+    padding-left: .8em;
+    color: var(--softBlue);
+}
+span{
+    color: var(--White);
+}
+div.group3 img{
+    width: 2em;
+    border: solid 1px var(--White);
+    border-radius: 50%;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+    color: var(--softBlue);
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
