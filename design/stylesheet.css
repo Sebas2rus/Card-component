@@ -50,11 +50,16 @@ img.view{
  
 }
 div.view:hover{
+    cursor: pointer;
     opacity: 1;
 }
 h2{
     padding: 1em 0 ;
     color: var(--White);
+}
+h2:hover{
+    color: var(--cyan);
+    cursor: pointer;
 }
 p.description{
     color: var(--softBlue);
@@ -86,8 +91,12 @@ div.group3 p {
     padding-left: .8em;
     color: var(--softBlue);
 }
-span{
+span{    
     color: var(--White);
+}
+span:hover{
+    cursor: pointer;
+    color: var(--cyan);
 }
 div.group3 img{
     width: 2em;
