@@ -17,7 +17,7 @@ body{
 }
 .container{
     background-color:  var(--cardBG);
-    max-width: 35%;    
+    max-width: 30%;    
     margin: auto;
     border-radius: 1em;
     padding: 1em;
