@@ -13,17 +13,20 @@
 }
 body{
     background-color: var(--mainBG);
-    margin-top: 5%;    
+  padding-top: 10vh;
 }
 .container{
     background-color:  var(--cardBG);
-    max-width: 30%;    
+    width: 30vw;
+     max-width:20em;
+    max-height: 80vh;  
     margin: auto;
     border-radius: 1em;
     padding: 1em;
 }
 .img{
     width: 100%;
+    
     border-radius: 1em;
 }
 .relative{
