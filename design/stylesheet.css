@@ -116,3 +116,16 @@ div.group3 img{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  /* Responsive  > 400 && Responsive  > 800 */
+
+  @media screen and (max-width : 800px) {
+      .container{
+        width: 50vw;
+      }
+  }
+  @media screen and (max-width : 480px) {
+    .container{
+      width: 80vw;
+    }
+}
