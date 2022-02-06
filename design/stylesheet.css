@@ -125,6 +125,9 @@ div.group3 img{
       }
   }
   @media screen and (max-width : 480px) {
+    body{
+        padding-top: 5vh;
+    }
     .container{
       width: 80vw;
     }
